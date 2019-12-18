@@ -38,6 +38,7 @@ git clone git@github.com:robertmash2/rebuild.git
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt install nvidia-driver-430
 
+#set mouse scroll direction
 
 
 
