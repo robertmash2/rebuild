@@ -17,7 +17,8 @@ tar -xf pycharm-professional-2019.3.tar.gz
 pycharm-professional-2019.3.tar.gz
 
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-
+./Miniconda3-latest-Linux-x86_64.sh
+rm Miniconda3-latest-Linux-x86_64.sh
 
 sudo apt update
 sudo apt install git
