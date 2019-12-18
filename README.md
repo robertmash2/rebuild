@@ -21,13 +21,25 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 rm Miniconda3-latest-Linux-x86_64.sh
 
 sudo apt update
-sudo apt install git coolkey libpcsclite1
+sudo apt install git coolkey libpcsclite1 pcscd pcsc-tools
 wget --no-check-certificate https://dl.google.com/linux/linux_signing_key.pub 
 sudo apt-key add linux_signing_key.pub
 
+#mozilla/prefs/security/load ... /usr/lib/pkcs.../pkcs.so.11
 
 mkdir code
 cd code
 git clone git@github.com:robertmash2/rebuild.git
+
+
+#install nvidia driver
+# latest version: https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
+# https://linuxhint.com/ubuntu_nvidia_ppa/
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt install nvidia-driver-430
+
+
+
+
 
 ```
