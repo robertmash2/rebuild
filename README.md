@@ -21,6 +21,8 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 rm Miniconda3-latest-Linux-x86_64.sh
 
 sudo apt update
+sudo apt install openssh-server
+
 sudo apt install git coolkey libpcsclite1 pcscd pcsc-tools vim
 wget --no-check-certificate https://dl.google.com/linux/linux_signing_key.pub 
 sudo apt-key add linux_signing_key.pub
